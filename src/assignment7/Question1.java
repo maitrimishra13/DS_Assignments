@@ -7,9 +7,10 @@ public class Question1 {
     public static void main(String[] args) {
         int number;
 
-        System.out.print("Enter size: ");
+        System.out.print("Enter array size: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        System.out.print("Enter array elements: ");
         int[] arr = create(n, sc);  // ✅ pass scanner instead of creating new one
 
         do {
