@@ -59,7 +59,6 @@ public class Question3 {
     }
 
     public static void main(String[] args) {
-
         LinkedList list = new LinkedList();
         list.insertAtEnd(10);
         list.insertAtEnd(20);
