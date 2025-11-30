@@ -13,7 +13,7 @@ public class Question1 {
             }
         }
 
-        private Node head;
+        private final Node head;
 
         public DoubleLinkedList() {
             head = null;
